@@ -4,7 +4,7 @@
 
 set -e
 
-cd /frpc
+cd /frps
 
 if [ ! -f /config/frps.ini ]; then
   cp /frps/frps.ini /config/
