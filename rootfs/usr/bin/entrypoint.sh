@@ -10,4 +10,4 @@ if [ ! -f /config/frps.ini ]; then
   cp /frps/frps.ini /config/
   fi
 
-./frpc -c /config/frps.ini
+./frps -c /config/frps.ini
